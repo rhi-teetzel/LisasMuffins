@@ -16,6 +16,7 @@ namespace LisasMuffins
             remainingCupsRequired = cupsOfSugarRecipe - currentCupsOfSugar;
 
             //Variable Output
+            Console.WriteLine("This program is to help Lisa do simple math.");
             Console.WriteLine("Lisa still needs {0} cups", remainingCupsRequired);
 
             Console.ReadKey();
